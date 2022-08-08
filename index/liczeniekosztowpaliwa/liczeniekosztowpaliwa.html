@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Liczenie kosztów paliwa by Przemo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Liczenie kosztów paliwa by Przemo</h1>
+        </div>
+
+        <div id="headerL">
+            Dodaj miejscowość:</br></br></br>
+            <input type="text" id="cityChoice" placeholder="Nazwa miejscowości"/>
+            </br></br></br>
+            <input type="submit" id="addingCity" value="Dodaj" onclick="addCity()"/>
+        </div>
+
+        <div id="headerR">
+            Dodaj osobę:</br></br></br>
+            <input type="text" id="nameChoice" placeholder="Imię osoby"/>
+            </br></br></br>
+            <input type="submit" id="addingName" value="Dodaj" onclick="addName()"/>
+        </div>
+
+        <div id="pick">
+            <div id="pickL">
+                Spalanie pojazdu na 100km:
+                <input type="number" id="vehFuelUsage" min="0" placeholder="Spalanie pojazdu"/>
+            </div>
+
+            <div id="pickR">
+                Cena paliwa za 1 litr:
+                <input type="number" id="vehFuelCost" min="0" placeholder="Cena paliwa"/>
+            </div>
+
+            <div id="pickRoute0">
+                Trasa całkowita: </br>
+                <span>
+                    <select id="route0x0" class="routeSelection">
+                        <option selected>-</option>
+                    </select>
+                </span>
+
+                <input type="submit" value="+" id="addingPlace0" onclick="addPlace('0')"/>
+
+            </br></br>
+            </div>
+
+        </div>
+
+        <div id="finalCount">
+            <input type="submit" value="Policz" onclick="countFinal()"/>
+        </div>
+
+    </br>
+        <div id="results">
+            <div id="resultsHeader">Uzupełnij brakujące odległości:</div>
+        </div>
+    </br>
+        <div id="results2">
+        </div>
+
+    </div>
+
+</body>
+
+
+
+</html>
