@@ -21,8 +21,48 @@ vardistance =
     dis:19.4,
     city1:"Tomaszów Lubelski",
     city2:"Jurów"
+},
+{
+    dis:7.2,
+    city1:"Tomaszów Lubelski",
+    city2:"Bełżec"
+},
+{
+    dis:36.4,
+    city1:"Tomaszów Lubelski",
+    city2:"Zamość"
+},
+{
+    dis:57,
+    city1:"Tomaszów Lubelski",
+    city2:"Nielisz"
+},
+{
+    dis:26.2,
+    city1:"Tomaszów Lubelski",
+    city2:"Ruda Różaniecka"
+},
+{
+    dis:16.2,
+    city1:"Tomaszów Lubelski",
+    city2:"Susiec"
+},
+{
+    dis:11.9,
+    city1:"Hubinek",
+    city2:"Gródek"
+},
+{
+    dis:13.6,
+    city1:"Hubinek",
+    city2:"Łaszczów"
 }
 ];
+
+
+
+
+
 
 
 /*
