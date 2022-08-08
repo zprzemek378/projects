@@ -1,0 +1,47 @@
+#container
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    text-align: center;
+    padding: 10px;
+}
+
+#pick
+{
+    clear:both;
+    width:1070px;
+    border: 5px solid black;
+    padding:10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.link1
+{
+    background-color: rgb(110, 186, 211);
+    padding: 10px;
+    margin:10px;
+    color: black;
+    text-decoration: none;
+}
+
+.link2
+{
+    background-color: rgb(119, 119, 214);
+    padding: 10px;
+    margin:10px;
+    color: black;
+    text-decoration: none;
+}
+
+.link1:hover, .link2:hover
+{
+    filter: brightness(120%);
+}
