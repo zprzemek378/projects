@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Przelicznik alkoholowy by Przemo</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Przelicznik alkoholowy by Przemo</h1>
+        </div>
+
+        <div id="headerL">
+
+            <div class="headerCenter">Przelicz z:</br></br></div>
+
+            Wybierz rodzaj: &nbsp&nbsp
+            <select id="alcoholChoice">
+                <option selected value="-">-</option>
+                <option value="5">Piwo - 5%</option>
+                <option value="12">Wino - 12%</option>
+                <option value="30">Wódka smakowa - 30%</option>
+                <option value="40">Wódka lub whisky - 40%</option>
+                <option value="another">Inne</option>
+            </select>
+            &nbsp&nbsp&nbsp&nbsp
+            <input type="number" min="0" max="100" placeholder="Ile %?" id="anotherPercentage"/>
+
+            </br></br>
+
+            Wybierz ilość: &nbsp&nbsp
+            <select id="quantityChoice">
+                <option selected value="-">-</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="another">Inne</option>
+            </select>
+            &nbsp&nbsp&nbsp&nbsp
+            <input type="number" min="0" placeholder="Ile?" id="anotherQuantity"/>
+
+            </br></br>
+
+
+            Wybierz wielkość: &nbsp&nbsp
+            <select id="sizeChoice">
+                <option selected value="-">-</option>
+                <option value="50">50ml</option>
+                <option value="200">200ml</option>
+                <option value="500">500ml</option>
+                <option value="700">700ml</option>
+                <option value="1000">1l</option>
+                <option value="another">Inne</option>
+            </select>
+            &nbsp&nbsp&nbsp&nbsp
+            <input type="number" min="0" placeholder="Ile ml?" id="anotherSize"/>
+
+            </br></br>
+            <div class="headerCenter"><input type="submit" value="Dodaj" onclick="addConvertFromCondition()"/></div>
+        </div>
+
+        <div id="headerR">
+            <div class="headerCenter">Przelicz na:</br></br></br></br></div>
+
+            Wybierz rodzaj: &nbsp&nbsp
+            <select id="alcoholChoiceR">
+                <option selected value="-">-</option>
+                <option value="5">Piwo - 5%</option>
+                <option value="12">Wino - 12%</option>
+                <option value="30">Wódka smakowa - 30%</option>
+                <option value="40">Wódka lub whisky - 40%</option>
+                <option value="another">Inne</option>
+            </select>
+            &nbsp&nbsp&nbsp&nbsp
+            <input type="number" min="0" max="100" placeholder="Ile %?" id="anotherPercentageR"/>
+
+        </br></br></br></br>
+
+            <div class="headerCenter"><input type="submit" value="Dodaj" onclick="addConvertToCondition()"/></div>
+        </div>
+
+        <div id="pick">
+          
+        </div>
+
+    </br>
+        <div id="results">
+            Wybrana ilość to w przeliczeniu:
+        </div>      
+    </div>
+</body>
+
+
+
+</html>

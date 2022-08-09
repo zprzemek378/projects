@@ -1,0 +1,131 @@
+#container
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    text-align: center;
+    padding: 10px;
+}
+
+#headerL
+{
+    text-align: end;
+    float:left;
+    width: 500px;
+    height: 180px;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+#headerR
+{
+    float:right;
+    text-align:end;
+    width:500px;
+    height: 180px;
+    border:5px solid black;
+    padding: 10px;
+}
+
+#pick
+{
+    clear:both;
+    margin-top:230px;
+    width:1070px;
+    border: 5px solid black;
+    padding:10px;
+    visibility: hidden;
+}
+
+#results
+{
+    text-align:center;
+    width:1070px;
+    border:5px solid black;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#alcoholChoice, #quantityChoice, #sizeChoice, #alcoholChoiceR
+{
+    width: 185px;
+}
+
+#anotherPercentage, #anotherQuantity, #anotherSize, #anotherPercentageR
+{
+    visibility: hidden;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.headerCenter
+{
+    text-align: center;
+}
+
+.list1A
+{
+    display: inline-block;
+    width: 300px;
+    background-color: rgb(119, 119, 214);
+}
+
+.list2A
+{
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(119, 119, 214);
+}
+
+.list3A
+{
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(119, 119, 214);
+}
+
+.list4A
+{
+    display: inline-block;
+    width: 355px;
+    background-color: rgb(119, 119, 214);
+}
+
+.list1B
+{
+    display: inline-block;
+    width: 300px;
+    background-color: rgb(110, 186, 211);
+}
+
+.list2B
+{
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(110, 186, 211);
+}
+
+.list3B
+{
+    display: inline-block;
+    width: 200px;
+    background-color: rgb(110, 186, 211);
+}
+
+.list4B
+{
+    display: inline-block;
+    width: 355px;
+    background-color: rgb(110, 186, 211);
+}
+
+.listOr
+{
+    display: inline-block;
+    width: 505px;
+}
